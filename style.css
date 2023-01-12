@@ -1,6 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
 body{
     box-sizing: border-box;
 }
 ul li{
-    list-style: none;
+    list-style-type: none;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+    font-family: Inter;
+    color: white;
+}
+main{
+    background: #1C1A19;
+
+}
+header{
+    background: #3E3C3C;
+    color: white;
+    display: flex;
+    padding-left: 30px;
+}
+.header-nav-div{
+    margin-left: 30%;
+}
+.header-name-div p{
+    font-family: Inter;
+    color: white;
+}
+.fa-envelope{
+    font-family: Inter;
+    color: white;
+    margin: auto 30px;
+
+}
+nav ul{
+    display: flex;
 }
