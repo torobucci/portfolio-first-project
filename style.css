@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto");
-@import url("https://fonts.googleapis.com/css2?family=Crete Round");
+@import url("https://fonts.googleapis.com/css2?family=cyrillic Roboto");
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Crete Round");
+
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
 }
+
 .container {
   border: 1px white;
   width: 100vw;
@@ -16,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .header {
   background: #3c3a39;
   height: 50px;
@@ -24,26 +27,30 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .header-p {
   margin-left: 15px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
+
 .fa-bars-icon {
   margin-right: 15px;
   font-size: 18px;
-  color: #ffffff;
+  color: #fff;
 }
+
 .section-1 {
   background-size: 406px 311px;
   background-color: black;
   height: 590px;
   width: 375px;
 }
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -52,10 +59,11 @@ body {
   height: 590px;
   width: 375px;
 }
+
 .Primary-text {
   width: 327px;
   height: 124px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -65,42 +73,45 @@ body {
   margin-left: 20px;
   margin-bottom: 10px;
 }
+
 .Supporting-text {
   width: 327px;
   height: 27px;
   margin-left: 20px;
   margin-bottom: 10px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   color: #fff5e1;
 }
+
 .Description {
   width: 327px;
   height: 123px;
   margin-left: 20px;
   margin-bottom: 10px;
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
+
 .social-media {
   border: 1px solid white;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   margin-left: 20px;
   margin-bottom: 10px;
-
   width: 200px;
   height: 40px;
 }
+
 .illustration {
   height: 290px;
   width: 375px;
