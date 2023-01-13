@@ -1,39 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter');
-body{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Crete Round");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
 }
-ul li{
-    list-style-type: none;
-    margin-right: 15px;
+.container {
+  border: 1px white;
+  width: 100vw;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-a{
-    text-decoration: none;
-    font-family: Inter;
-    color: white;
+.header {
+  background: #3c3a39;
+  height: 50px;
+  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-main{
-    background: #1C1A19;
+.header-p {
+  margin-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.fa-bars-icon {
+  margin-right: 15px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.section-1 {
+  background-size: 406px 311px;
+  background-color: black;
+  height: 590px;
+  width: 375px;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 590px;
+  width: 375px;
+}
+.Primary-text {
+  width: 327px;
+  height: 124px;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.Supporting-text {
+  width: 327px;
+  height: 27px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+.Description {
+  width: 327px;
+  height: 123px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.social-media {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 
+  width: 200px;
+  height: 40px;
 }
-header{
-    background: #3E3C3C;
-    color: white;
-    display: flex;
-    padding-left: 30px;
-}
-.header-nav-div{
-    margin-left: 30%;
-}
-.header-name-div p{
-    font-family: Inter;
-    color: white;
-}
-.fa-envelope{
-    font-family: Inter;
-    color: white;
-    margin: auto 30px;
-
-}
-nav ul{
-    display: flex;
+.illustration {
+  height: 290px;
+  width: 375px;
+  background-image: url("/portfolio-first-project/images/Illustration.png");
+  background-repeat: no-repeat;
+  background-size: 156px 312px;
+  position: absolute;
+  right: -37px;
+  top: 365px;
 }
