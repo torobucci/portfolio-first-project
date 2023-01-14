@@ -8,6 +8,7 @@ body {
   padding: 0;
   background-repeat: no-repeat;
 }
+
 a {
   text-decoration: none;
   color: #fff;
@@ -106,6 +107,7 @@ a {
 .social-media {
   margin-left: -33px;
 }
+
 .social-media ul {
   border: 1px solid white;
   display: flex;
