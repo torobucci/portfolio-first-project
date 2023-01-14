@@ -8,7 +8,10 @@ body {
   padding: 0;
   background-repeat: no-repeat;
 }
-
+a {
+  text-decoration: none;
+  color: #fff;
+}
 .container {
   border: 1px white;
   width: 100vw;
@@ -60,34 +63,34 @@ body {
   width: 375px;
 }
 
-.Primary-text {
+.primary-text {
   width: 327px;
   height: 124px;
   font-family: "Crete Round", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
-.Supporting-text {
+.supporting-text {
   width: 327px;
   height: 27px;
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
   color: #fff5e1;
 }
 
-.Description {
+.description {
   width: 327px;
   height: 123px;
   margin-left: 20px;
@@ -101,24 +104,23 @@ body {
 }
 
 .social-media {
+  margin-left: -33px;
+}
+.social-media ul {
   border: 1px solid white;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 0;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  width: 200px;
-  height: 40px;
+  list-style-type: none;
+  justify-content: flex-start;
 }
 
 .illustration {
   height: 290px;
-  width: 375px;
-  background-image: url("/portfolio-first-project/images/Illustration.png");
+  width: 365px;
+  background-image: url("./images/Illustration.png");
   background-repeat: no-repeat;
   background-size: 156px 312px;
   position: absolute;
-  right: -37px;
+  right: 104px;
   top: 365px;
 }
