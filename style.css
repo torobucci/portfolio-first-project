@@ -6,22 +6,17 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-repeat: no-repeat;
+  width: 375px;
+  height: 100vh;
+  margin: 0 auto;
 }
 
+h1 {
+  font-weight: 100;
+}
 a {
   text-decoration: none;
   color: #fff;
-}
-
-.container {
-  border: 1px white;
-  width: 100vw;
-  height: 640px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .header {
@@ -51,9 +46,13 @@ a {
 
 .section-1 {
   background-size: 406px 311px;
-  background-color: black;
   height: 590px;
   width: 375px;
+  background-color: black;
+  background-image: url("./images/background-image.svg");
+  background-repeat: no-repeat;
+  background-position-x: 116px;
+  background-position-y: 310px;
 }
 
 .headline {
@@ -70,7 +69,6 @@ a {
   height: 124px;
   font-family: "Crete Round", cursive;
   font-style: normal;
-  font-weight: 400;
   font-size: 36px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -110,20 +108,11 @@ a {
 }
 
 .social-media ul {
-  border: 1px solid white;
   display: flex;
   align-items: center;
   list-style-type: none;
   justify-content: flex-start;
 }
-
-.illustration {
-  height: 290px;
-  width: 365px;
-  background-image: url("./images/Illustration.png");
-  background-repeat: no-repeat;
-  background-size: 156px 312px;
-  position: absolute;
-  right: 104px;
-  top: 365px;
+.social-media ul li {
+  margin-right: 10px;
 }
