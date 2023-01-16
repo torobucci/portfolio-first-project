@@ -4,14 +4,19 @@
 
 body {
   box-sizing: border-box;
+  margin: 0;
   padding: 0;
-  width: 375px;
-  height: 100vh;
-  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
 }
 
 h1 {
   font-weight: 100;
+}
+
+h1,
+h2 {
+  margin: 0;
 }
 
 a {
@@ -21,15 +26,13 @@ a {
 
 .header {
   background: #3c3a39;
-  height: 50px;
-  width: 375px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 1rem;
 }
 
 .header-p {
-  margin-left: 15px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -39,49 +42,35 @@ a {
 }
 
 .fa-bars-icon {
-  margin-right: 15px;
   font-size: 18px;
   color: #fff;
 }
 
 .section-1 {
-  background-size: 406px 311px;
-  height: 590px;
-  width: 375px;
   background-color: black;
+  padding: 8rem 1.25rem 6rem;
   background-image: url("./images/background-image.svg");
   background-repeat: no-repeat;
-  background-position-x: 116px;
-  background-position-y: 310px;
+  background-position: bottom right;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  height: 590px;
-  width: 375px;
+  width: 85%;
 }
 
 .primary-text {
-  width: 327px;
-  height: 124px;
   font-family: "Crete Round", cursive;
   font-style: normal;
   font-size: 36px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin-left: 20px;
-  margin-bottom: 40px;
 }
 
 .supporting-text {
-  width: 327px;
-  height: 27px;
-  margin-left: 20px;
-  margin-bottom: 60px;
+  margin-top: 10px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -91,10 +80,6 @@ a {
 }
 
 .description {
-  width: 327px;
-  height: 123px;
-  margin-left: 20px;
-  margin-bottom: 10px;
   font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 400;
@@ -104,16 +89,18 @@ a {
 }
 
 .social-media {
-  margin-left: -33px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .social-media ul {
   display: flex;
   align-items: center;
   list-style-type: none;
-  justify-content: flex-start;
+  margin-left: -40px;
 }
 
 .social-media ul li {
-  margin-right: 10px;
+  margin-right: 12px;
 }
