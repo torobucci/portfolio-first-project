@@ -1,39 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter');
-body{
-    box-sizing: border-box;
-}
-ul li{
-    list-style-type: none;
-    margin-right: 15px;
-}
-a{
-    text-decoration: none;
-    font-family: Inter;
-    color: white;
-}
-main{
-    background: #1C1A19;
+@import url("https://fonts.googleapis.com/css2?family=cyrillic Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Crete Round");
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
 }
-header{
-    background: #3E3C3C;
-    color: white;
-    display: flex;
-    padding-left: 30px;
-}
-.header-nav-div{
-    margin-left: 30%;
-}
-.header-name-div p{
-    font-family: Inter;
-    color: white;
-}
-.fa-envelope{
-    font-family: Inter;
-    color: white;
-    margin: auto 30px;
 
+h1 {
+  font-weight: 100;
 }
-nav ul{
-    display: flex;
+
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  background: #3c3a39;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.header-p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.fa-bars-icon {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-1 {
+  background-color: black;
+  padding: 8rem 1.25rem 6rem;
+  background-image: url("./images/background-image.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.primary-text {
+  font-family: "Crete Round", cursive;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.supporting-text {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.description {
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.social-media {
+  margin-top: -30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-media ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.social-media ul li {
+  margin-right: 12px;
 }
